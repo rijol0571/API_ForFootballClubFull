@@ -3,7 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { JwtModule } from '@nestjs/jwt';
 
-import { AuthModule } from './auth/auth.module';
+import { AuthModule } from "./auth/auth.module"
 import { TeamsModule } from './teams/teams.module';
 import { PlayersModule } from './players/players.module';
 import { MatchesModule } from "./ matches/matches.module"
